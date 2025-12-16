@@ -12,7 +12,7 @@
   --nav-height: 64px;
 }
 
-/* Reset */
+
 *,
 *::before,
 *::after {
@@ -28,7 +28,7 @@ body {
   background: #ffffff;
 }
 
-/* Layout helpers */
+
 .container {
   width: 100%;
   max-width: 1120px;
@@ -54,7 +54,7 @@ body {
   margin: 0 auto;
 }
 
-/* Buttons */
+
 .btn {
   border-radius: var(--radius-pill);
   border: none;
@@ -91,7 +91,7 @@ body {
   width: 100%;
 }
 
-/* NAVBAR */
+
 .nav {
   position: sticky;
   top: 0;
@@ -137,7 +137,7 @@ body {
   border-color: #111827;
 }
 
-/* HERO */
+
 .hero {
   padding: 72px 0 80px;
 }
@@ -169,7 +169,7 @@ body {
   object-fit: cover;
 }
 
-/* FEATURES */
+
 .features {
   background: var(--bg-light);
   padding: 64px 0 72px;
@@ -210,7 +210,7 @@ body {
   font-size: 14px;
 }
 
-/* PRICING */
+
 .pricing {
   padding: 72px 0 80px;
 }
@@ -293,7 +293,7 @@ body {
   color: var(--green);
 }
 
-/* CONTACT */
+
 .contact {
   background: var(--bg-light);
   padding: 72px 0 80px;
@@ -348,7 +348,7 @@ body {
   resize: vertical;
 }
 
-/* FOOTER (single, cleaned version) */
+
 .footer {
   background: #020617;
   color: #9ca3af;
@@ -385,7 +385,6 @@ body {
   color: #22c55e;
 }
 
-/* RESPONSIVE */
 @media (max-width: 900px) {
   .hero-grid {
     grid-template-columns: 1fr;
@@ -409,3 +408,4 @@ body {
     font-size: 14px;
   }
 }
+
